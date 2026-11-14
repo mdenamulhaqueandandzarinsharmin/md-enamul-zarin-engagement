@@ -597,9 +597,7 @@ img { max-width: 100%; display: block; }
   bottom: 0;
   transform: translateX(-50%) scaleY(-1);   /* flipped upside down */
 }
-@media (max-width: 680px) {
-  .cover-arch { width: min(420px, 80vw); }
-}
+
 
 @media (max-width: 380px) {
   .nav-link:nth-child(3) { display: none; }
